@@ -1,12 +1,48 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/icone.jpg">
-    <title>EU E TUUU <3</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nossos Momentos</title>
+  <link rel="stylesheet" href="style/x.css" />
 </head>
 <body>
-    
+  <header>
+    <h1>💖 Nossos Momentos</h1>
+    <p>Um cantinho só nosso para guardar memórias e sonhos ✨</p>
+  </header>
+
+  <main>
+    <section id="momentos">
+      <h2>📸 Momentos especiais</h2>
+      <div class="galeria" id="galeriaMomentos">
+        <!-- Itens serão inseridos dinamicamente -->
+      </div>
+    </section>
+
+    <section id="planos">
+      <h2>🎯 Coisas que queremos fazer</h2>
+      <ul id="listaPlanos">
+        <!-- Itens serão inseridos dinamicamente -->
+      </ul>
+    </section>
+
+    <section id="formulario">
+      <h2>➕ Adicionar novo momento ou plano</h2>
+      <input type="text" id="inputItem" placeholder="Descreva aqui..." />
+      <select id="tipo">
+        <option value="momento">Momento</option>
+        <option value="plano">Plano</option>
+      </select>
+      <button onclick="adicionarItem()">Adicionar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com 💕 por Gabriel</p>
+  </footer>
+
+  <script src="script/s.js"></script>
 </body>
 </html>
