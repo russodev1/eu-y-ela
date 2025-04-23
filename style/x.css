@@ -59,3 +59,66 @@ body {
     margin-top: 2rem;
   }
   
+=======
+/* style.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+    background: #ffe4e1;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    color: #c71585;
+  }
+  
+  .galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .galeria div, #listaPlanos li {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  input, select, button {
+    padding: 0.6rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background: #c71585;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ffe4e1;
+    margin-top: 2rem;
+  }
+  
+>>>>>>> 0eecdefd0dd3efd994d5691283bdb252861f850c
